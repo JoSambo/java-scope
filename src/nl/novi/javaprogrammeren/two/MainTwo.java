@@ -8,6 +8,9 @@ public class MainTwo {
             int totalsum = 0;
             Random random = new Random();
             totalsum = totalsum + random.nextInt();
+            System.out.println("De som van alle random-getallen is: " + totalsum);
+
         }
+
     }
 }
